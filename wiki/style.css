@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img{
+    border-radius: 60%;
+    height: 50%;
+    width: 20%;
+    filter: grayscale(1); 
+}
+img:hover{
+    box-shadow: 5px 5px 5px black;
+    filter: grayscale(0);
+}
+.box #h1{
+    margin-left: 10px;
+}
+.box #p1{
+    margin-left:10px ;
+}
